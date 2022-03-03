@@ -1,0 +1,19 @@
+.menu-flex{
+    display: flex;
+    align-items: center;
+}
+
+.header__img{
+    max-width: 15rem;
+    margin: 1rem auto;
+}
+
+@media (min-width: 443px){
+    .header__img{
+        margin: 2rem 3rem;
+    }
+}
+
+.nav-link{
+    cursor: pointer;
+}
