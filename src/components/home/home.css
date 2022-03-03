@@ -90,10 +90,8 @@
 }
 
 .grid-img {
-    margin-top: 8px;
-    vertical-align: middle;
     max-height: 40rem;
-    width: auto;
+    width: 100%;
     overflow: hidden;
     opacity: .5;
     z-index: 0;

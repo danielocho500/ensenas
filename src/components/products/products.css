@@ -6,8 +6,13 @@
 
 .card-img-top {
     width: 100%;
-    height: 19vw;
     object-fit: cover;
+}
+
+@media (min-width: 520px){
+    .card-img-top{
+        height: 22vw;
+    }
 }
 
 @media (min-width: 520px){
