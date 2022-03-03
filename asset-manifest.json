@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/ensenas/static/css/main.0f789fda.css",
+    "main.js": "/ensenas/static/js/main.799c4b94.js",
+    "static/media/frases.jpg": "/ensenas/static/media/frases.f474e0679b44b0114ca2.jpg",
+    "static/media/personalizada.jpg": "/ensenas/static/media/personalizada.daf3928d97223b620162.jpg",
+    "static/media/reconocimientos.jpg": "/ensenas/static/media/reconocimientos.94871f65d09d321b23a6.jpg",
+    "static/media/nomemclatura.jpg": "/ensenas/static/media/nomemclatura.bb020b6f91e8c22e2797.jpg",
+    "static/media/museo.jpg": "/ensenas/static/media/museo.2eba2cfbefd70b6ace2c.jpg",
+    "static/media/hospitales.jpg": "/ensenas/static/media/hospitales.91ef859d12da4dbe42a9.jpg",
+    "static/media/viales.jpg": "/ensenas/static/media/viales.6aed0da09fafeea10949.jpg",
+    "static/media/menu.jpg": "/ensenas/static/media/menu.2252a519190a5d7ed69a.jpg",
+    "static/media/placas.jpg": "/ensenas/static/media/placas.ab87ae0c621e17bd2d06.jpg",
+    "static/media/numeración.jpg": "/ensenas/static/media/numeración.aa6c8b773b6af56f21a1.jpg",
+    "static/media/Protección civil.jpg": "/ensenas/static/media/Protección civil.0f4cbc8a480c2c903a86.jpg",
+    "static/media/logoLarge.png": "/ensenas/static/media/logoLarge.9996cb1a7442ce7af477.png",
+    "static/media/logoSmall.png": "/ensenas/static/media/logoSmall.ca2fb0b9209a10751522.png",
+    "static/media/logoSmallNoLetter.png": "/ensenas/static/media/logoSmallNoLetter.42605f27e900a0aab95b.png",
+    "index.html": "/ensenas/index.html",
+    "static/media/whatsapp.svg": "/ensenas/static/media/whatsapp.9f0ddb62d9bfa93142239aa37741abd7.svg",
+    "static/media/place.svg": "/ensenas/static/media/place.ade297239f20a4a497434ed209c85186.svg",
+    "static/media/phone.svg": "/ensenas/static/media/phone.9413ed2bdf0028298eb330b123413968.svg",
+    "static/media/facebook.svg": "/ensenas/static/media/facebook.e17ad900d2224e02a3c4002a9a500725.svg",
+    "static/media/mail.svg": "/ensenas/static/media/mail.4c0084b8ade8c6ad3565f1aca614e5b3.svg",
+    "static/media/return.svg": "/ensenas/static/media/return.3327094680193ad92ceb5a377bf5eb8b.svg",
+    "static/media/send.svg": "/ensenas/static/media/send.93cd47be303536993f4cb0fc1a8bb6cf.svg",
+    "main.0f789fda.css.map": "/ensenas/static/css/main.0f789fda.css.map",
+    "main.799c4b94.js.map": "/ensenas/static/js/main.799c4b94.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f789fda.css",
+    "static/js/main.799c4b94.js"
+  ]
+}
