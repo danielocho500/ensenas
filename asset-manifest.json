@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ensenas/static/css/main.0f789fda.css",
+    "main.css": "/ensenas/static/css/main.3bf9b5ee.css",
     "main.js": "/ensenas/static/js/main.8bd5ada9.js",
     "static/media/frases.jpg": "/ensenas/static/media/frases.f474e0679b44b0114ca2.jpg",
     "static/media/personalizada.jpg": "/ensenas/static/media/personalizada.daf3928d97223b620162.jpg",
@@ -24,11 +24,11 @@
     "static/media/mail.svg": "/ensenas/static/media/mail.4c0084b8ade8c6ad3565f1aca614e5b3.svg",
     "static/media/return.svg": "/ensenas/static/media/return.3327094680193ad92ceb5a377bf5eb8b.svg",
     "static/media/send.svg": "/ensenas/static/media/send.93cd47be303536993f4cb0fc1a8bb6cf.svg",
-    "main.0f789fda.css.map": "/ensenas/static/css/main.0f789fda.css.map",
+    "main.3bf9b5ee.css.map": "/ensenas/static/css/main.3bf9b5ee.css.map",
     "main.8bd5ada9.js.map": "/ensenas/static/js/main.8bd5ada9.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f789fda.css",
+    "static/css/main.3bf9b5ee.css",
     "static/js/main.8bd5ada9.js"
   ]
 }
