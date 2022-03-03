@@ -13,10 +13,10 @@ export const AppRouter = () => {
             <BrowserRouter>
             <Header/>
                 <Routes>
-                    <Route path='/' element={<Home/>}/>
-                    <Route path='/productos' element={<ProductsPage/>}/>
-                    <Route path='/productos/:productoId' element={<Product/>}/>
-                    <Route path='/contacto' element={<ContactPage/>}/>
+                    <Route path='/ensenas/' element={<Home/>}/>
+                    <Route path='/ensenas/productos' element={<ProductsPage/>}/>
+                    <Route path='/ensenas/productos/:productoId' element={<Product/>}/>
+                    <Route path='/ensenas/contacto' element={<ContactPage/>}/>
                 
                 </Routes>
             <Footer/>

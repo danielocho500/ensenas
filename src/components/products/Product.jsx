@@ -15,7 +15,7 @@ export const Product = () => {
     const {url, categoria, Titulo, Precio, Descripcion, Medida, Color, Forma} = product
 
     const handleReturn = () => {
-        navigate('/productos');
+        navigate('/ensenas/productos');
     }
 
     return (

@@ -15,9 +15,9 @@ export const Footer = () => {
             </div>
 
             <div className="footer__links">
-                <NavLink to="/"> Inicio </NavLink>
-                <NavLink to="productos"> Productos </NavLink>
-                <NavLink to="contacto"> Contacto </NavLink>
+                <NavLink to="/ensenas/"> Inicio </NavLink>
+                <NavLink to="/ensenas/productos"> Productos </NavLink>
+                <NavLink to="/ensenas/contacto"> Contacto </NavLink>
             </div>
 
             <div className="footer__icons">
