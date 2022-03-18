@@ -1,6 +1,7 @@
 import React from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import { useGetProduct } from '../../hooks/useGetProuct';
+import { Loading } from '../basics/Loading';
 
 import backButton from './../../img/return.svg';
 
@@ -26,7 +27,7 @@ export const Product = () => {
 
             {
                 (loading)
-                ? <p>Loading...</p>
+                ? <Loading/>
                 : <>
                         <div className="product__image">
                             <img src={url}/>

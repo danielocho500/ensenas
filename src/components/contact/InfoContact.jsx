@@ -9,21 +9,25 @@ export const InfoContact = () => {
     return (
         <div className="contact__media">
             <div className="info-flex">
-                <div className="item-flex">
-                    <img src={placeImg} />
-                    <p> Guadalupe Victoria #88 Col. Centro </p>
-                </div>
-
-                <div className="item-flex">
-                    <img src={phoneImg} />
-                    <p> 01-800-0000-000 </p>
-                </div>
+                <a href="https://goo.gl/maps/2f6A3nZortn3x5Ja8" target="_blank" rel="noopener noreferrer">
+                    <div className="item-flex">
+                        <img src={placeImg} />
+                        <p> Guadalupe Victoria #88 Col. Centro </p>
+                    </div>
+                </a>
+                
+                <a href="tel:+522282929332" target="_blank" rel="noopener noreferrer">
+                    <div className="item-flex">
+                        <img src={phoneImg} />
+                        <p> +52 228 292 9332 </p>
+                    </div>
+                </a>
 
                 <div className="item-flex">
                     <img src={mailImg} />
                     <p> correo@correo.com </p>
                 </div>
-                <a href="https://www.facebook.com/Ensenaz">
+                <a href="https://www.facebook.com/Ensenaz" target="_blank" rel="noopener noreferrer">
                     <div className="item-flex">
                         <img src={facebook} />
                         <p> Enseñas Oficial </p>

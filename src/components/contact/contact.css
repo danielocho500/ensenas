@@ -4,7 +4,7 @@
 }
 
 .form-group{
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .form-control{
@@ -23,6 +23,8 @@ form{
 
 .contact__media{
     margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .info-flex{
@@ -33,7 +35,7 @@ form{
 
 @media (min-width: 768px){
     .info-flex{
-        padding-top: 10rem;
+        padding-top: 2rem;
     }
 }
 
@@ -42,6 +44,10 @@ form{
     flex-direction: row;
     align-items: center;
     gap: 3rem;
+}
+
+.item-flex p{
+    color: black;
 }
 
 @media (min-width: 768px){

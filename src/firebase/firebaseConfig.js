@@ -3,14 +3,14 @@ import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAqHE7ZVaqyHAswybZ9q9tIMduBu_671A4",
-  authDomain: "ensenas-9dcad.firebaseapp.com",
-  projectId: "ensenas-9dcad",
-  storageBucket: "ensenas-9dcad.appspot.com",
-  messagingSenderId: "317140904630",
-  appId: "1:317140904630:web:20a99aa038083dc9d29417"
+  apiKey: "AIzaSyDmiWNlyuQl-2fjK9eDkOAEH6apK9jUeIA",
+  authDomain: "senaletica-ensenas-braille.firebaseapp.com",
+  projectId: "senaletica-ensenas-braille",
+  storageBucket: "senaletica-ensenas-braille.appspot.com",
+  messagingSenderId: "457902795841",
+  appId: "1:457902795841:web:52b8ef6fc98751fa786ac0",
+  measurementId: "G-Y1Q8H3395W"
 };
-
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
