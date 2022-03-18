@@ -23,10 +23,12 @@ export const InfoContact = () => {
                     <img src={mailImg} />
                     <p> correo@correo.com </p>
                 </div>
-                <div className="item-flex">
-                    <img src={facebook} />
-                    <p> Nombre de página </p>
-                </div>
+                <a href="https://www.facebook.com/Ensenaz">
+                    <div className="item-flex">
+                        <img src={facebook} />
+                        <p> Enseñas Oficial </p>
+                    </div>
+                </a>
             </div>
         </div>
     )

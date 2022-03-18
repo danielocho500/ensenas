@@ -21,14 +21,14 @@ export const Header = () => {
     
       <div className="container">
         <header className="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom menu-flex">
-          <a href="/ensenas" className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+          <a href="/" className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
             <img src={logoSmall} alt="logo" className='header__img'/>
           </a>
 
           <ul className="nav nav-pills">
-            <li className="nav-item" onClick={handleClick}><a className="nav-link active" value='/ensenas/'> Inicio </a></li>
-            <li className="nav-item" onClick={handleClick}><a value='/ensenas/productos' className="nav-link">Productos</a></li>
-            <li className="nav-item" onClick={handleClick}><a value='/ensenas/contacto' className="nav-link">Contacto</a></li>
+            <li className="nav-item" onClick={handleClick}><a className="nav-link active" value='/'> Inicio </a></li>
+            <li className="nav-item" onClick={handleClick}><a value='/productos' className="nav-link">Productos</a></li>
+            <li className="nav-item" onClick={handleClick}><a value='/contacto' className="nav-link">Contacto</a></li>
           </ul>
         </header>
       </div>

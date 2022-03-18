@@ -1,7 +1,12 @@
 import React from 'react'
 import { useNavigate} from 'react-router-dom'
 
-export const Card = ({url, Titulo ,Descripcion,Precio, id}) => {
+import { useGetImage } from '../../hooks/useGetImage';
+import noImage from '../../img/no-image.png';
+
+export const Card = ({image, title, description, id, precio}) => {
+
+    const {url, loading, error} = useGetImage(image);
 
     const navigate = useNavigate();
 
@@ -12,15 +17,15 @@ export const Card = ({url, Titulo ,Descripcion,Precio, id}) => {
 
     return (
         <div className="card">
-            <img className="card-img-top" src={url} alt="Card image cap"/>
+            <img className="card-img-top" src={(error) ? noImage : url} alt="Card image cap"/>
                 <div className="card-body">
-                    <h5 className="card-title">{Titulo}</h5>
+                    <h5 className="card-title">{title}</h5>
                     <p className="card-text">{
-                        (Descripcion.length > 80)
-                            ? Descripcion.substring(0,60) + "..."
-                            : Descripcion
+                        (description.length > 80)
+                            ? description.substring(0,60) + "..."
+                            : description
                         }</p>
-                    <p className='card__price'> {"$"+Precio+ " MXN"} </p>
+                    <p className='card__price'> {"$"+precio+ " MXN"} </p>
                     <a href="#" className="btn btn-primary btn__card" onClick={handleProductInfo}>Ver Más</a>
                 </div>
         </div>

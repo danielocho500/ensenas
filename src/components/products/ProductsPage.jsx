@@ -1,25 +1,32 @@
 import React from 'react'
-import { Products } from '../data/productos'
+import { useGetProducts } from '../../hooks/useGetProducts'
 import { Card } from './Card'
 
 import './products.css'
 
 export const ProductsPage = () => {
+
+  const {data, loading, error} = useGetProducts();
+  
+  
+
   return (
     <>
       <h1 className='products__title'> Productos </h1>
-      
-      <div className="grid-products container">
-        {
-            Products["products"].map(product => (
-              <Card
-                  key={product.id}
-                  {...product}
-              />
-                  
-          ))
-        }
-      </div>
+      {
+        (loading)
+          ? <p> Cargando </p>
+          : <div className="grid-products container">
+              {
+                  data.map(product => (
+                    <Card
+                        key={product.id}
+                        {...product}
+                    />       
+                  ))
+              }
+            </div>
+      }
     </>
   )
 }

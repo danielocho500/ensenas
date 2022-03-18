@@ -15,17 +15,22 @@ export const Footer = () => {
             </div>
 
             <div className="footer__links">
-                <NavLink to="/ensenas/"> Inicio </NavLink>
-                <NavLink to="/ensenas/productos"> Productos </NavLink>
-                <NavLink to="/ensenas/contacto"> Contacto </NavLink>
+                <NavLink to="/"> Inicio </NavLink>
+                <NavLink to="productos"> Productos </NavLink>
+                <NavLink to="contacto"> Contacto </NavLink>
             </div>
 
             <div className="footer__icons">
-                <img src={facebook}/>
-                <img src={whatsapp}/>
-            </div>
+                
+                <a href="https://wa.me/+522282929332" target="_blank" rel="noopener noreferrer">
+                    <img src={whatsapp}/>
+                </a>
+                
+                <a href="https://www.facebook.com/Ensenaz" target="_blank" rel="noopener noreferrer">
+                    <img src={facebook} />
+                </a>
 
-            
+            </div>
         </footer>
     )
 }

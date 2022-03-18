@@ -1,5 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { NoPage } from '../components/basics/NoPage'
 import { ContactPage } from '../components/contact/ContactPage'
 import { Footer } from '../components/footer/Footer'
 import { Header } from '../components/header/Header'
@@ -13,11 +14,11 @@ export const AppRouter = () => {
             <BrowserRouter>
             <Header/>
                 <Routes>
-                    <Route path='/ensenas/' element={<Home/>}/>
-                    <Route path='/ensenas/productos' element={<ProductsPage/>}/>
-                    <Route path='/ensenas/productos/:productoId' element={<Product/>}/>
-                    <Route path='/ensenas/contacto' element={<ContactPage/>}/>
-                
+                    <Route path='/' element={<Home/>}/>
+                    <Route path='/productos' element={<ProductsPage/>}/>
+                    <Route path='/productos/:productoId' element={<Product/>}/>
+                    <Route path='/contacto' element={<ContactPage/>}/>
+                    <Route path='/*' element={<NoPage/>}/>
                 </Routes>
             <Footer/>
             </BrowserRouter>
